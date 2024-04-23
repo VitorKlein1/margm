@@ -1,0 +1,84 @@
+
+/* Variáveis */
+:root {
+    --azul1: #57B2F3;
+    --azul2: #3196da;
+    --sombra1: 5px 5px 3px rgba(0, 0, 0, 0.041);
+}
+
+
+
+/* Pré-definições globais */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #FCFCFC;
+    /*overflow: hidden;*/
+}
+
+
+
+/* Seção Cadastrar Livro */
+#cadastrar-livro {
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--azul1);
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-bottom: 80px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+
+p {
+    opacity: 90%;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.281);
+    background-color: #F4F4F4;
+    resize: none;
+    margin-bottom: 35px;
+}
+
+form input::placeholder {
+    opacity: 50%;
+}
+
+form button {
+    width: 12%;
+    padding: 12px;
+    margin-top: 50px;
+    background-color: var(--azul1);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: var(--sombra1);
+    margin-left: 25%;
+}
+
+form button:hover {
+    background-color: var(--azul2); 
+}

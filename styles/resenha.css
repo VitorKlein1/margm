@@ -1,0 +1,24 @@
+
+/* Variáveis */
+:root {
+    --azul1: #57B2F3;
+    --azul2: #3196da;
+    --sombra1: 5px 5px 3px rgba(0, 0, 0, 0.041);
+}
+
+
+
+/* Pré-definições globais */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #FCFCFC;
+    /*overflow: hidden;*/
+}

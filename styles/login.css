@@ -1,0 +1,128 @@
+
+/* Variáveis */
+:root {
+    --azul1: #57B2F3;
+    --azul2: #3196da;
+    --sombra1: 5px 5px 3px rgba(0, 0, 0, 0.041);
+}
+
+
+
+/* Pré-definições globais */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #FCFCFC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+/* Seção imagem no lado esquerdo */
+.imagem_login img {
+    width: 700px;
+    height: 100vh;
+}
+
+
+
+/* Seção login no lado direito */
+.login-container {
+    margin-left: 300px;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(37, 37, 37, 0.123);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    color: var(--azul1); 
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #5c5c5f; 
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+/* Formulário de login */
+form {
+    margin-top: 50px;
+}
+
+form p {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Campos de entrada de dados */
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #F4F4F4;
+    box-shadow: var(--sombra1);
+}
+
+/*  Botão "Conectar"  */
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 50px;
+    background-color: var(--azul1);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: var(--sombra1);
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: var(--azul2); 
+}
+
+
+
+/* Esqueceu a senha? */
+#suporte {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#suporte a {
+    color: var(--azul1);
+}
+
+#suporte a:hover {
+    color: var(--azul2);
+}
