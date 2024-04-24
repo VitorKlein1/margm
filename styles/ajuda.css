@@ -3,9 +3,10 @@
 :root {
     --azul1: #57B2F3;
     --azul2: #3196da;
+    --azul3: #004678d8;
+    --azul4: #57b2f36e;
     --sombra1: 5px 5px 3px rgba(0, 0, 0, 0.041);
 }
-
 
 
 /* Pré-definições globais */
@@ -17,10 +18,50 @@
 
 body {
     font-family: Arial, sans-serif;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: #FCFCFC;
-    /*overflow: hidden;*/
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* Menu Lateral */
+#menu-lateral {
+    background-color: var(--azul3);
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#menu-lateral a {
+    background-color: var(--azul4);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: -1px;
+    padding: 20px;
+    border-radius: 2px;
+    width: 250px;
+    font-size: 20px;
+}
+
+#menu-lateral #selecionado {
+    background-color: var(--azul1);
 }
 
 
@@ -51,7 +92,7 @@ p {
 }
 
 form textarea {
-    width: 70%;
+    width: 1000px;
     padding: 10px;
     border-radius: 10px;
     border: 0.5px solid rgba(0, 0, 0, 0.281);
@@ -60,9 +101,9 @@ form textarea {
 }
 
 form button {
-    width: 12%;
+    width: 200px;
     padding: 12px;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: var(--azul1);
     border: none;
     border-radius: 6px;
@@ -71,7 +112,7 @@ form button {
     cursor: pointer;
     transition: background-color 0.3s;
     box-shadow: var(--sombra1);
-    margin-left: 25%;
+    margin-left: 400px;
 }
 
 form button:hover {

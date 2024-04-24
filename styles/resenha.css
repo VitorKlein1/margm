@@ -28,10 +28,16 @@ body {
 /* Seção Resenha */
 #resenha {
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 
 /* Botão Voltar e Avaliar */
+
+#voltar {
+    text-decoration: none;
+}
+
 #voltar, #avaliar {
     width: 80px;
     padding: 4px;
@@ -44,6 +50,8 @@ body {
     transition: background-color 0.3s;
     box-shadow: var(--sombra1);
 }
+
+
 
 #voltar:hover, #avaliar:hover, #form-comentario>button:hover {
     background-color: var(--azul2); 
@@ -61,10 +69,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-#dados-da-resenha p {
-    margin-left: 30px;
+    margin-top: 30px;
 }
 
 #rating {
@@ -75,7 +80,6 @@ body {
     border: 0.5px solid rgba(0, 0, 0, 0.281);
     background-color: white;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.123);
-    margin-top: -10px;  
 }
 
 
