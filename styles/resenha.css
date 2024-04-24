@@ -22,3 +22,133 @@ body {
     background-color: #FCFCFC;
     /*overflow: hidden;*/
 }
+
+
+
+/* Seção Resenha */
+#resenha {
+    margin-left: 20px;
+}
+
+
+/* Botão Voltar e Avaliar */
+#voltar, #avaliar {
+    width: 80px;
+    padding: 4px;
+    background-color: var(--azul1);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: var(--sombra1);
+}
+
+#voltar:hover, #avaliar:hover, #form-comentario>button:hover {
+    background-color: var(--azul2); 
+}
+
+
+/* Seção Resenha */
+#voltar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#dados-da-resenha {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#dados-da-resenha p {
+    margin-left: 30px;
+}
+
+#rating {
+    width: 30px;
+    height: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.281);
+    background-color: white;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.123);
+    margin-top: -10px;  
+}
+
+
+/* Resenha */
+#resenha-texto {
+    height: 400px;
+    width: 80%;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#resenha-texto p {
+    padding: 10px;
+}
+
+
+/* Comentários */
+#comentarios {
+    height: 320px;
+    width: 80%;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#comentario-escrito {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.281);
+    resize: none;
+    background-color: #EBEBEB;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.123);
+}
+
+#comentario-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+
+#form-comente {
+    margin-top: 70px;
+}
+
+#form-comente input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.281);
+    resize: none;
+    background-color: white;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.123);
+    margin-left: 10px;
+}
+
+#form-comente button {
+    width: 25px;
+    padding: 4px;
+    background-color: var(--azul1);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: var(--sombra1);
+}
+
