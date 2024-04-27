@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
 
 /* Variáveis */
 :root {
@@ -42,6 +44,7 @@ body {
 }
 
 h1 {
+    font-family: "Ribeye", serif;
     font-size: 60px;
     color: white;
     text-align: center;
